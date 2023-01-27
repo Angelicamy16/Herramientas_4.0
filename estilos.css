@@ -1,76 +1,25 @@
-header {
-    background-color: blue;
-    padding: 10px;
-  }
-  
-  header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  header li {
-    float: left;
-  }
-  
-  header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  header li a:hover {
-    background-color: darkblue;
-  }
-  
-  section {
-    width: 100%;
-    padding: 20px;
-  }
-  
-  #seccion-1 {
-    background-color: lightblue;
-  }
-  
-  #seccion-2 {
-    background-color: lightgreen;
-  }
-  
-  #seccion-3 {
-    background-color: lightgray;
-  }
-
-
-#div-izquierda {
-    width: 50%;
-    float: left;
-    padding: 20px;
-  }
-  
-  #div-derecha {
-    width: 50%;
-    float: right;
-    padding: 20px;
-  }
-  
-  #div-derecha img {
-    width: 100%;
-  }
-
-
-#div-izquierda-2 {
-    width: 50%;
-    float: left;
-    padding: 20px;
-  }
-  #div-derecha-2 {
-    width: 50%;
-    float: right;
-    padding: 20px;
-  }
-  #div-derecha-2 img {
-    width: 100%;
-  }
+/* Estilo para el banner */
+#banner {
+  background-color: blue;
+  padding: 10px;
+}
+/* Estilo para el menú horizontal */
+#menu {
+  display: flex;
+  justify-content: space-between;
+}
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+/* Estilo para las secciones */
+.seccion {
+  margin: 20px;
+  padding: 10px;
+  background-color: lightblue;
+}
+/* Estilo para las imágenes */
+img {
+  max-width: 100%;
+}
